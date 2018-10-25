@@ -206,7 +206,7 @@ progress[value] {
 #contact p{
     padding-top:
 }
-button {
+#submitbutton {
     background-color: #252934; 
     border-radius: 0.2rem;
     color: rgb(216, 234, 245);
@@ -215,7 +215,7 @@ button {
     text-align: center;
     font-size: 12px; 
 }
-button:hover{
+#submitbutton:hover{
     background-color: rgb(216, 234, 245);
     color: #252934;
 }
