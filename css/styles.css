@@ -8,6 +8,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 100%;
     font-family: 'Gloria Hallelujah', cursive;
     color: #ffffff;
     display: flex;
@@ -16,8 +17,8 @@ body, html {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.2 );
     background-blend-mode: overlay;
-    width: 100%;
 }
+
 #home h1 {
     font-size: 3rem;
     margin: 0%;
@@ -168,8 +169,8 @@ progress[value] {
 }
 /* contact section */
 #contact {
-    background-color: #000000;
-    color: wheat;
+    background-color:#252934;
+    color: #ffffff;
     text-align: center;
 }
 #contact h2{
@@ -190,16 +191,31 @@ progress[value] {
     width: 30rem;
     height: 1.3rem;
     border-radius: 4px;
+    background-color: #252934;
+    -webkit-text-fill-color: rgb(216, 234, 245);
 }
+
 #contact textarea{
     border: 2px solid;
     width: 30rem;
-    height: 7rem;
+    height: 10rem;
     border-radius: 4px;
+    background-color: #252934;
+    -webkit-text-fill-color: rgb(216, 234, 245);
 }
 #contact p{
     padding-top:
 }
-#button {
-
+button {
+    background-color: #252934; 
+    border-radius: 0.2rem;
+    color: rgb(216, 234, 245);
+    height: 2rem;
+    width:4.3rem;
+    text-align: center;
+    font-size: 12px; 
+}
+button:hover{
+    background-color: rgb(216, 234, 245);
+    color: #252934;
 }
