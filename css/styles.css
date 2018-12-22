@@ -52,7 +52,7 @@ body, html {
     color: #523e4d6e;
 }
 #home nav {
-    background-color: #ea214d;\
+    background-color: #ea214d;
     position: absolute;
     bottom: 0;
     text-align: left;
@@ -207,7 +207,7 @@ progress[value] {
     -webkit-text-fill-color: rgb(216, 234, 245);
 }
 #contact p{
-    padding-top:
+    padding-top: 2px;
 }
 #submitbutton {
     background-color: #252934; 
