@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0rem;    
+    font-family: 'Indie Flower', cursive;
 }
  #home { 
     background-image: url(../img/headerimg2.jpg);
@@ -216,7 +217,7 @@ progress[value] {
     height: 2rem;
     width:4.3rem;
     text-align: center;
-    font-size: 12px; 
+    font-size: 12p
 }
 #submitbutton:hover{
     background-color: rgb(216, 234, 245);
