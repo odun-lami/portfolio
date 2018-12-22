@@ -52,7 +52,7 @@ body, html {
     color: #523e4d6e;
 }
 #home nav {
-    background-color: #ea214d;
+    background-color: #ea214d;\
     position: absolute;
     bottom: 0;
     text-align: left;
@@ -120,6 +120,9 @@ body, html {
     display: flex;
     justify-content: space-evenly;
     margin-top: 5rem;
+}
+#about .con p {
+    margin-top: -19px;
 }
 #about .con .left{
     width: 200px;
@@ -219,3 +222,112 @@ progress[value] {
     background-color: rgb(216, 234, 245);
     color: #252934;
 }
+#portfolio h2 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 0rem;
+}
+#portfolio hr{
+    margin-top: 0rem;
+    width: 70px;
+    height: 4px;
+    background-color: black;
+    border-radius: 9px;
+}
+#portfolio .projects{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+#portfolio .work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:20rem;
+    text-align: center;
+}
+#portfolio .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #ea214d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actual-work{
+    margin-bottom: -0.7rem;
+}
+#portfolio .icon i{
+    color: #ffffff;
+    font-size: 3rem;
+}
+#blog h2 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 0rem;
+}
+#blog hr{
+    margin-top: 0rem;
+    width: 70px;
+    height: 4px;
+    background-color: black;
+    border-radius: 9px;
+}
+#blog .projects{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+#blog .work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:20rem;
+    text-align: center;
+}
+#blog .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #ea214d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blog .icon i{
+    color: #ffffff;
+    font-size: 3rem;
+}
+footer {
+    background-color: #252934;
+}
+#back-up .upagain {
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#back-up i{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+#homeup, #socials {
+    text-align: center;
+}
+
+#back-up, #social-me {
+    display: inline-block;
+}
+#social-me i {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+ 
